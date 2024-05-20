@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodingChallenge.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CodingChallenge.Api.Controllers.BaseApiController">
+            <summary>
+            Base api controller
+            </summary>
+        </member>
+        <member name="P:CodingChallenge.Api.Controllers.BaseApiController.Mediator">
+            <summary>
+            Mediator sender
+            </summary>
+        </member>
+        <member name="T:CodingChallenge.Api.Controllers.LoginController">
+            <summary>
+            Login controller
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Controllers.LoginController.Login(CodingChallenge.Application.ApplicationUser.Queries.GetToken.GetTokenQuery,System.Threading.CancellationToken)">
+            <summary>
+            Login and get JWT token email: test@test.com password: CCApi_1850
+            </summary>
+            <param name="query"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Api.Controllers.ProductsController">
+            <summary>
+            Products controller
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Controllers.ProductsController.GetProductsWithPagination(CodingChallenge.Application.Products.Queries.GetProductsWithPagination.GetProductsWithPaginationQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get all products with pagination
+            </summary>
+            <param name="query"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Api.Controllers.ProductsController.GetProductsByQuery(CodingChallenge.Application.Products.Queries.Search.SearchProductsQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get all products with pagination
+            </summary>
+            <param name="query"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Api.Controllers.ProductsController.Create(CodingChallenge.Application.Products.Commands.Create.CreateProductCommand,System.Threading.CancellationToken)">
+            <summary>
+            Creates Product
+            </summary>
+            <param name="command"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Api.Filters.ApiExceptionFilterAttribute">
+            <summary>
+            Exception filters
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Filters.ApiExceptionFilterAttribute.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Filters.ApiExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            On exception event
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:CodingChallenge.Api.Program">
+            <summary>
+            Starter
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Program.Main(System.String[])">
+            <summary>
+            Main function
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CodingChallenge.Api.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            WebHost builder
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CodingChallenge.Api.Services.CurrentUserService">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Services.CurrentUserService.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="httpContextAccessor"></param>
+        </member>
+        <member name="P:CodingChallenge.Api.Services.CurrentUserService.UserId">
+            <summary>
+            Current userId
+            </summary>
+        </member>
+        <member name="T:CodingChallenge.Api.Startup">
+            <summary>
+            Startup class responsible for configuring and registering dependencies
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:CodingChallenge.Api.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:CodingChallenge.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configure Services for dependency container
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CodingChallenge.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            setup middleware services and pipeline behaviour
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

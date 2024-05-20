@@ -1,0 +1,390 @@
+2024-05-19 15:53:39.288 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 15:53:39.389 +05:00 [INF] Hosting environment: Development
+2024-05-19 15:53:39.390 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 15:53:39.450 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 15:53:39.567 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 121.8358ms
+2024-05-19 15:53:39.581 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 15:53:39.589 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.1674ms
+2024-05-19 15:53:39.698 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 15:53:39.794 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.6751ms
+2024-05-19 15:58:20.106 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 15:58:20.126 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 15:58:20.128 +05:00 [INF] Hosting environment: Development
+2024-05-19 15:58:20.128 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 15:58:20.190 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 88.8759ms
+2024-05-19 15:58:20.202 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 15:58:20.207 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.6094ms
+2024-05-19 15:58:20.308 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 15:58:20.387 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.8547ms
+2024-05-19 15:58:22.981 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 15:58:23.013 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 15:58:23.055 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 15:58:26.026 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 15:58:35.057 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 15:58:35.062 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 15:58:35.628 +05:00 [INF] Received HTTP response headers after 565.2352ms - 200
+2024-05-19 15:58:35.631 +05:00 [INF] End processing HTTP request after 575.4032ms - 200
+2024-05-19 15:59:32.057 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 15:59:32.058 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 15:59:32.194 +05:00 [INF] Received HTTP response headers after 136.1409ms - 200
+2024-05-19 15:59:32.194 +05:00 [INF] End processing HTTP request after 137.0119ms - 200
+2024-05-19 16:00:48.614 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:00:48.639 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:00:48.641 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:00:48.642 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:00:48.695 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 85.4522ms
+2024-05-19 16:00:48.708 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:00:48.715 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.5647ms
+2024-05-19 16:00:48.782 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:00:48.839 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.5398ms
+2024-05-19 16:01:02.119 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 16:01:02.137 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:01:02.154 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:01:04.481 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 16:01:09.028 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:01:09.032 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:01:09.548 +05:00 [INF] Received HTTP response headers after 514.1395ms - 200
+2024-05-19 16:01:09.550 +05:00 [INF] End processing HTTP request after 524.0916ms - 200
+2024-05-19 16:01:59.089 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:01:59.089 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:01:59.230 +05:00 [INF] Received HTTP response headers after 140.8464ms - 200
+2024-05-19 16:01:59.231 +05:00 [INF] End processing HTTP request after 142.0265ms - 200
+2024-05-19 16:10:10.947 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:10:10.986 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:10:10.988 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:10:10.988 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:10:11.062 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 124.0448ms
+2024-05-19 16:10:11.115 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:10:11.119 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 3.5937ms
+2024-05-19 16:10:11.258 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:10:11.384 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 126.2159ms
+2024-05-19 16:10:22.806 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 16:10:22.841 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:10:22.874 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:10:28.642 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 16:10:33.683 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:10:33.688 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:10:34.218 +05:00 [INF] Received HTTP response headers after 528.2573ms - 200
+2024-05-19 16:10:34.219 +05:00 [INF] End processing HTTP request after 539.4129ms - 200
+2024-05-19 16:10:37.936 +05:00 [ERR] CurrConverter Request: Unhandled Exception for Request GetHistoricalRatesQuery {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+System.InvalidCastException: Unable to cast object of type 'CurrConverter.Domain.Common.DateOnlyConverter' to type 'Newtonsoft.Json.JsonConverter'.
+   at Newtonsoft.Json.Serialization.JsonTypeReflector.GetJsonConverter(Object attributeProvider)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.SetPropertySettingsFromAttributes(JsonProperty property, Object attributeProvider, String name, Type declaringType, MemberSerialization memberSerialization, Boolean& allowNonPublicAccess)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateProperties(Type type, MemberSerialization memberSerialization)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateObjectContract(Type objectType)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.CreateContract(Type objectType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Newtonsoft.Json.Utilities.ThreadSafeStore`2.Get(TKey key)
+   at Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContract(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.GetContractSafe(Type type)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CurrConverter.Infrastructure.Services.CurrencyConverterService.GetHistoricRatesAsync(GetHistoricalRatesQuery query, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\Services\CurrencyConverterService.cs:line 58
+   at CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesHandler.Handle(GetHistoricalRatesQuery query, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\CurrencyConverter\Queries\GetHistoricRates\GetHistoricRatesQuery.cs:line 37
+   at CurrConverter.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 25
+2024-05-19 16:13:32.980 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:13:33.008 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:13:33.010 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:13:33.010 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:13:33.062 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 85.4972ms
+2024-05-19 16:13:33.082 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:13:33.087 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.3684ms
+2024-05-19 16:13:33.184 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:13:33.244 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.5616ms
+2024-05-19 16:13:38.910 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 16:13:38.947 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:13:38.986 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:13:52.219 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 16:13:56.220 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:13:56.224 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:13:56.776 +05:00 [INF] Received HTTP response headers after 550.6764ms - 200
+2024-05-19 16:13:56.778 +05:00 [INF] End processing HTTP request after 559.9498ms - 200
+2024-05-19 16:14:49.511 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:14:51.736 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 72748.2612ms
+2024-05-19 16:14:51.737 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:14:51.740 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/history - 200 null application/json; charset=utf-8 72830.3714ms
+2024-05-19 16:42:12.164 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - null null
+2024-05-19 16:42:12.167 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:42:12.177 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetLatestExchangeRates.GetLatestExchangeRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:42:14.153 +05:00 [INF] Matech.CurrConverter Request: GetLatestExchangeRatesQuery  {"BaseCurrency":"EUR","$type":"GetLatestExchangeRatesQuery"}
+2024-05-19 16:42:14.166 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:42:14.166 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:42:14.656 +05:00 [INF] Received HTTP response headers after 489.3148ms - 200
+2024-05-19 16:42:14.657 +05:00 [INF] End processing HTTP request after 490.816ms - 200
+2024-05-19 16:42:14.675 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ExchangeRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:42:14.687 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 2509.1902ms
+2024-05-19 16:42:14.687 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:42:14.687 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - 200 null application/json; charset=utf-8 2523.4183ms
+2024-05-19 16:43:59.893 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:43:59.939 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:43:59.941 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:43:59.941 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:44:00.073 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 195.7804ms
+2024-05-19 16:44:00.118 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:44:00.125 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.3529ms
+2024-05-19 16:44:00.302 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:44:00.479 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 177.5895ms
+2024-05-19 16:44:04.137 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - null null
+2024-05-19 16:44:04.169 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:44:04.213 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetLatestExchangeRates.GetLatestExchangeRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:44:06.132 +05:00 [INF] Matech.CurrConverter Request: GetLatestExchangeRatesQuery  {"BaseCurrency":"EUR","$type":"GetLatestExchangeRatesQuery"}
+2024-05-19 16:44:06.449 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:44:06.462 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:44:08.517 +05:00 [INF] Received HTTP response headers after 2051.362ms - 200
+2024-05-19 16:44:08.522 +05:00 [INF] End processing HTTP request after 2076.5432ms - 200
+2024-05-19 16:44:08.818 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ExchangeRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:44:08.844 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 4627.1671ms
+2024-05-19 16:44:08.845 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:44:08.849 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - 200 null application/json; charset=utf-8 4711.8847ms
+2024-05-19 16:44:28.781 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:44:28.782 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:44:28.786 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:44:30.701 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:44:30.706 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:44:30.706 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:44:30.900 +05:00 [INF] Received HTTP response headers after 193.7038ms - 200
+2024-05-19 16:44:30.900 +05:00 [INF] End processing HTTP request after 194.3808ms - 200
+2024-05-19 16:44:30.961 +05:00 [ERR] CurrConverter Request: Unhandled Exception for Request ConvertCurrencyCommand {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+Mapster.CompileException: Error while compiling
+source=CurrConverter.Domain.Models.ExchangeRateResponse
+destination=CurrConverter.Application.Dto.ConvertCurrencyDto
+type=Map
+ ---> Mapster.CompileException: Error while compiling
+source=System.DateOnly
+destination=System.DateTime
+type=Map
+ ---> System.InvalidOperationException: Cannot convert immutable type, please consider using 'MapWith' method to create mapping
+   at Mapster.Adapters.PrimitiveAdapter.ConvertType(Expression source, Type destinationType, CompileArgument arg)
+   at Mapster.Adapters.PrimitiveAdapter.CreateExpressionBody(Expression source, Expression destination, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptFunc(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   --- End of inner exception stack trace ---
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateInlineMapExpression(Type sourceType, Type destinationType, MapType mapType, CompileContext context, MemberMapping mapping)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptExpressionCore(Expression source, Type destinationType, CompileArgument arg, MemberMapping mapping, Expression destination)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptExpression(Expression source, Type destinationType, CompileArgument arg, MemberMapping mapping, Expression destination)
+   at Mapster.Adapters.ClassAdapter.CreateInlineExpression(Expression source, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateInlineExpressionBody(Expression source, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateExpressionBody(Expression source, Expression destination, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptFunc(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   --- End of inner exception stack trace ---
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(TypeTuple tuple, MapType mapType)
+   at Mapster.TypeAdapterConfig.CreateDynamicMapExpression(TypeTuple tuple)
+   at Mapster.TypeAdapterConfig.<GetDynamicMapFunction>b__66_0[TDestination](TypeTuple tuple)
+   at Mapster.TypeAdapterConfig.<>c__DisplayClass55_0`1.<AddToHash>b__0(TypeTuple types)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Mapster.TypeAdapterConfig.AddToHash[T](ConcurrentDictionary`2 hash, TypeTuple key, Func`2 func)
+   at Mapster.TypeAdapterConfig.GetDynamicMapFunction[TDestination](Type sourceType)
+   at MapsterMapper.Mapper.Map[TDestination](Object source)
+   at MapsterMapper.ServiceMapper.Map[TDestination](Object source)
+   at CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyHandler.Handle(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\CurrencyConverter\Commands\CurrencyConversion\ConvertCurrencyCommand.cs:line 34
+   at CurrConverter.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 25
+2024-05-19 16:44:32.407 +05:00 [INF] Executing ObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult'.
+2024-05-19 16:44:32.409 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 3622.6324ms
+2024-05-19 16:44:32.409 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:44:32.409 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 500 null application/json; charset=utf-8 3628.1595ms
+2024-05-19 16:44:37.709 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:44:37.710 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:44:37.710 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:45:48.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:45:48.800 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:45:48.801 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:45:48.801 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:45:48.851 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 70.5755ms
+2024-05-19 16:45:48.877 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:45:48.883 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 3.7926ms
+2024-05-19 16:45:48.949 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:45:49.007 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.232ms
+2024-05-19 16:46:43.613 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:46:43.635 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:46:43.649 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:46:55.920 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:47:29.518 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:47:29.522 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:47:30.063 +05:00 [INF] Received HTTP response headers after 537.3661ms - 200
+2024-05-19 16:47:30.065 +05:00 [INF] End processing HTTP request after 548.9443ms - 200
+2024-05-19 16:47:36.759 +05:00 [ERR] CurrConverter Request: Unhandled Exception for Request ConvertCurrencyCommand {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+Mapster.CompileException: Error while compiling
+source=CurrConverter.Domain.Models.ExchangeRateResponse
+destination=CurrConverter.Application.Dto.ConvertCurrencyDto
+type=Map
+ ---> Mapster.CompileException: Error while compiling
+source=System.DateOnly
+destination=System.DateTime
+type=Map
+ ---> System.InvalidOperationException: Cannot convert immutable type, please consider using 'MapWith' method to create mapping
+   at Mapster.Adapters.PrimitiveAdapter.ConvertType(Expression source, Type destinationType, CompileArgument arg)
+   at Mapster.Adapters.PrimitiveAdapter.CreateExpressionBody(Expression source, Expression destination, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptFunc(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   --- End of inner exception stack trace ---
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateInlineMapExpression(Type sourceType, Type destinationType, MapType mapType, CompileContext context, MemberMapping mapping)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptExpressionCore(Expression source, Type destinationType, CompileArgument arg, MemberMapping mapping, Expression destination)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptExpression(Expression source, Type destinationType, CompileArgument arg, MemberMapping mapping, Expression destination)
+   at Mapster.Adapters.ClassAdapter.CreateInlineExpression(Expression source, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateInlineExpressionBody(Expression source, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateExpressionBody(Expression source, Expression destination, CompileArgument arg)
+   at Mapster.Adapters.BaseAdapter.CreateAdaptFunc(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   --- End of inner exception stack trace ---
+   at Mapster.TypeAdapterConfig.CreateMapExpression(CompileArgument arg)
+   at Mapster.TypeAdapterConfig.CreateMapExpression(TypeTuple tuple, MapType mapType)
+   at Mapster.TypeAdapterConfig.CreateDynamicMapExpression(TypeTuple tuple)
+   at Mapster.TypeAdapterConfig.<GetDynamicMapFunction>b__66_0[TDestination](TypeTuple tuple)
+   at Mapster.TypeAdapterConfig.<>c__DisplayClass55_0`1.<AddToHash>b__0(TypeTuple types)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Mapster.TypeAdapterConfig.AddToHash[T](ConcurrentDictionary`2 hash, TypeTuple key, Func`2 func)
+   at Mapster.TypeAdapterConfig.GetDynamicMapFunction[TDestination](Type sourceType)
+   at MapsterMapper.Mapper.Map[TDestination](Object source)
+   at MapsterMapper.ServiceMapper.Map[TDestination](Object source)
+   at CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyHandler.Handle(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\CurrencyConverter\Commands\CurrencyConversion\ConvertCurrencyCommand.cs:line 34
+   at CurrConverter.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 25
+2024-05-19 16:51:44.828 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 16:51:44.848 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 16:51:44.850 +05:00 [INF] Hosting environment: Development
+2024-05-19 16:51:44.850 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 16:51:44.906 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 16:51:44.906 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 83.0267ms
+2024-05-19 16:51:44.912 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.2124ms
+2024-05-19 16:51:44.999 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 16:51:45.057 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.8639ms
+2024-05-19 16:51:59.511 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:51:59.562 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:51:59.604 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:52:01.981 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:52:05.310 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:52:05.315 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:52:05.848 +05:00 [INF] Received HTTP response headers after 532.1545ms - 200
+2024-05-19 16:52:05.850 +05:00 [INF] End processing HTTP request after 542.3366ms - 200
+2024-05-19 16:52:05.964 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ConvertCurrencyDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:52:05.972 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 6366.4278ms
+2024-05-19 16:52:05.972 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:52:05.975 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 200 null application/json; charset=utf-8 6463.5178ms
+2024-05-19 16:52:22.987 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:52:22.990 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:52:22.990 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:52:24.855 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"AED","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:52:25.821 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=AED
+2024-05-19 16:52:25.822 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=AED
+2024-05-19 16:52:26.005 +05:00 [INF] Received HTTP response headers after 183.4264ms - 404
+2024-05-19 16:52:26.006 +05:00 [INF] End processing HTTP request after 184.301ms - 404
+2024-05-19 16:52:26.082 +05:00 [ERR] CurrConverter Request: Unhandled Exception for Request ConvertCurrencyCommand {"Amount":10,"FromCurrency":"GBP","ToCurrency":"AED","$type":"ConvertCurrencyCommand"}
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at CurrConverter.Infrastructure.Services.CurrencyConverterService.ConvertCurrencyAsync(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\Services\CurrencyConverterService.cs:line 30
+   at CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyHandler.Handle(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\CurrencyConverter\Commands\CurrencyConversion\ConvertCurrencyCommand.cs:line 32
+   at CurrConverter.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 25
+2024-05-19 16:52:27.647 +05:00 [INF] Executing ObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult'.
+2024-05-19 16:52:27.651 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 4659.9879ms
+2024-05-19 16:52:27.651 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:52:27.651 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 500 null application/json; charset=utf-8 4664.1851ms
+2024-05-19 16:52:31.873 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:52:31.873 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:52:31.874 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:52:34.016 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"AED","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:52:35.070 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=AED
+2024-05-19 16:52:35.070 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=AED
+2024-05-19 16:52:35.214 +05:00 [INF] Received HTTP response headers after 143.4278ms - 404
+2024-05-19 16:52:35.214 +05:00 [INF] End processing HTTP request after 144.5881ms - 404
+2024-05-19 16:52:35.275 +05:00 [ERR] CurrConverter Request: Unhandled Exception for Request ConvertCurrencyCommand {"Amount":10,"FromCurrency":"GBP","ToCurrency":"AED","$type":"ConvertCurrencyCommand"}
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at CurrConverter.Infrastructure.Services.CurrencyConverterService.ConvertCurrencyAsync(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\Services\CurrencyConverterService.cs:line 30
+   at CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyHandler.Handle(ConvertCurrencyCommand command, CancellationToken cancellationToken) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\CurrencyConverter\Commands\CurrencyConversion\ConvertCurrencyCommand.cs:line 32
+   at CurrConverter.Application.Common.Behaviours.UnhandledExceptionBehaviour`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in C:\source\CurrencyConverter\src\Common\CurrConverter.Application\Common\Behaviours\UnhandledExceptionBehaviour.cs:line 25
+2024-05-19 16:53:31.932 +05:00 [INF] Executing ObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult'.
+2024-05-19 16:53:31.941 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 60067.0473ms
+2024-05-19 16:53:31.941 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:53:31.941 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 500 null application/json; charset=utf-8 60068.2903ms
+2024-05-19 16:53:36.180 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 16:53:36.181 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:53:36.182 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:53:38.299 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+2024-05-19 16:53:39.091 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:53:39.091 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 16:53:39.233 +05:00 [INF] Received HTTP response headers after 142.0952ms - 200
+2024-05-19 16:53:39.233 +05:00 [INF] End processing HTTP request after 142.4648ms - 200
+2024-05-19 16:53:39.234 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ConvertCurrencyDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:53:39.235 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 3052.8219ms
+2024-05-19 16:53:39.235 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 16:53:39.235 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 200 null application/json; charset=utf-8 3055.5231ms
+2024-05-19 16:53:48.105 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - null null
+2024-05-19 16:53:48.106 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:53:48.120 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetLatestExchangeRates.GetLatestExchangeRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:53:50.043 +05:00 [INF] Matech.CurrConverter Request: GetLatestExchangeRatesQuery  {"BaseCurrency":"EUR","$type":"GetLatestExchangeRatesQuery"}
+2024-05-19 16:53:50.048 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:53:50.048 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 16:53:50.187 +05:00 [INF] Received HTTP response headers after 138.6531ms - 200
+2024-05-19 16:53:50.187 +05:00 [INF] End processing HTTP request after 139.098ms - 200
+2024-05-19 16:53:50.193 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ExchangeRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:53:50.197 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 2076.1857ms
+2024-05-19 16:53:50.197 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:53:50.198 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - 200 null application/json; charset=utf-8 2093.3238ms
+2024-05-19 16:54:00.428 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 16:54:00.431 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:54:00.436 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 16:54:03.070 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 16:54:03.972 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:54:03.972 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 16:54:04.433 +05:00 [INF] Received HTTP response headers after 461.3636ms - 200
+2024-05-19 16:54:04.434 +05:00 [INF] End processing HTTP request after 461.9442ms - 200
+2024-05-19 16:54:05.787 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 16:54:05.792 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 5355.3099ms
+2024-05-19 16:54:05.792 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 16:54:05.792 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/history - 200 null application/json; charset=utf-8 5364.4105ms
+2024-05-19 17:42:43.540 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/index.html - null null
+2024-05-19 17:42:43.578 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 17:42:43.589 +05:00 [INF] Hosting environment: Development
+2024-05-19 17:42:43.589 +05:00 [INF] Content root path: C:\source\CurrencyConverter\src\Apps\CurrConverter.Api
+2024-05-19 17:42:44.457 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/index.html - 200 null text/html;charset=utf-8 927.5063ms
+2024-05-19 17:42:44.461 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 17:42:44.469 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.7876ms
+2024-05-19 17:42:44.511 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/_vs/browserLink - null null
+2024-05-19 17:42:44.579 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.0439ms
+2024-05-19 17:42:44.623 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - null null
+2024-05-19 17:42:44.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44308/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.7398ms
+2024-05-19 17:42:51.950 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/history - application/json 126
+2024-05-19 17:42:51.981 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 17:42:52.029 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetHistoricRates.GetHistoricalRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 17:42:52.094 +05:00 [INF] Matech.CurrConverter Request: GetHistoricalRatesQuery  {"BaseCurrency":"USD","StartDate":{"Year":2023,"Month":1,"Day":1,"DayOfWeek":"Sunday","DayOfYear":1,"DayNumber":738520,"$type":"DateOnly"},"EndDate":{"Year":2023,"Month":1,"Day":31,"DayOfWeek":"Tuesday","DayOfYear":31,"DayNumber":738550,"$type":"DateOnly"},"PageNumber":1,"PageSize":10,"$type":"GetHistoricalRatesQuery"}
+2024-05-19 17:42:52.416 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 17:42:52.425 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/2023-01-01..2023-01-31?from=USD
+2024-05-19 17:42:52.972 +05:00 [INF] Received HTTP response headers after 542.5946ms - 200
+2024-05-19 17:42:52.976 +05:00 [INF] End processing HTTP request after 564.1574ms - 200
+2024-05-19 17:42:53.283 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.PaginatedGetHistoricRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 17:42:53.308 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 1275.8643ms
+2024-05-19 17:42:53.309 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 17:42:53.312 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/history - 200 null application/json; charset=utf-8 1361.6207ms
+2024-05-19 17:42:59.076 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - null null
+2024-05-19 17:42:59.078 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 17:42:59.088 +05:00 [INF] Route matched with {action = "GetLatest", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] GetLatestAsync(CurrConverter.Application.CurrencyConverter.Queries.GetLatestExchangeRates.GetLatestExchangeRatesQuery, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 17:42:59.109 +05:00 [INF] Matech.CurrConverter Request: GetLatestExchangeRatesQuery  {"BaseCurrency":"EUR","$type":"GetLatestExchangeRatesQuery"}
+2024-05-19 17:42:59.118 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 17:42:59.118 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?from=EUR
+2024-05-19 17:42:59.292 +05:00 [INF] Received HTTP response headers after 173.3166ms - 200
+2024-05-19 17:42:59.293 +05:00 [INF] End processing HTTP request after 174.4662ms - 200
+2024-05-19 17:42:59.309 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ExchangeRatesDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 17:42:59.314 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api) in 225.9727ms
+2024-05-19 17:42:59.314 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.GetLatestAsync (CurrConverter.Api)'
+2024-05-19 17:42:59.315 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:44308/api/currencies/latest?baseCurrency=EUR - 200 null application/json; charset=utf-8 239.1953ms
+2024-05-19 17:43:04.071 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:44308/api/currencies/convert - application/json 70
+2024-05-19 17:43:04.072 +05:00 [INF] Executing endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 17:43:04.076 +05:00 [INF] Route matched with {action = "ConvertCurrency", controller = "Currencies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CurrConverter.Application.Common.Models.ServiceResult`1[CurrConverter.Application.Dto.ExchangeRatesDto]]] ConvertCurrencyAsync(CurrConverter.Application.CurrencyConverter.Commands.CurrencyConvert.ConvertCurrencyCommand, System.Threading.CancellationToken) on controller CurrConverter.Api.Controllers.CurrenciesController (CurrConverter.Api).
+2024-05-19 17:43:04.092 +05:00 [INF] Matech.CurrConverter Request: ConvertCurrencyCommand  {"Amount":10,"FromCurrency":"GBP","ToCurrency":"USD","$type":"ConvertCurrencyCommand"}
+2024-05-19 17:43:04.103 +05:00 [INF] Start processing HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 17:43:04.103 +05:00 [INF] Sending HTTP request GET https://api.frankfurter.app/latest?amount=10&from=GBP&to=USD
+2024-05-19 17:43:04.287 +05:00 [INF] Received HTTP response headers after 183.7702ms - 200
+2024-05-19 17:43:04.288 +05:00 [INF] End processing HTTP request after 184.3687ms - 200
+2024-05-19 17:43:04.293 +05:00 [INF] Executing OkObjectResult, writing value of type 'CurrConverter.Application.Common.Models.ServiceResult`1[[CurrConverter.Application.Dto.ConvertCurrencyDto, CurrConverter.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 17:43:04.299 +05:00 [INF] Executed action CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api) in 222.8789ms
+2024-05-19 17:43:04.299 +05:00 [INF] Executed endpoint 'CurrConverter.Api.Controllers.CurrenciesController.ConvertCurrencyAsync (CurrConverter.Api)'
+2024-05-19 17:43:04.300 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:44308/api/currencies/convert - 200 null application/json; charset=utf-8 228.5772ms

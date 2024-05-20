@@ -1,0 +1,10 @@
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\bin\Debug\netstandard2.1\CodingChallenge.Domain.deps.json
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\bin\Debug\netstandard2.1\CodingChallenge.Domain.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\bin\Debug\netstandard2.1\CodingChallenge.Domain.pdb
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.AssemblyInfoInputs.cache
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.AssemblyInfo.cs
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.csproj.CoreCompileInputs.cache
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.sourcelink.json
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\obj\Debug\netstandard2.1\CodingChallenge.Domain.pdb

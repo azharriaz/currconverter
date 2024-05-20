@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = CodingChallenge.Domain
+build_property.ProjectDir = C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Domain\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

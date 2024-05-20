@@ -1,0 +1,16 @@
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\bin\Debug\net6.0\CodingChallenge.Application.deps.json
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\bin\Debug\net6.0\CodingChallenge.Application.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\bin\Debug\net6.0\CodingChallenge.Application.pdb
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\bin\Debug\net6.0\CodingChallenge.Domain.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\bin\Debug\net6.0\CodingChallenge.Domain.pdb
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.csproj.AssemblyReference.cache
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.AssemblyInfoInputs.cache
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.AssemblyInfo.cs
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.csproj.CoreCompileInputs.cache
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.sourcelink.json
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.csproj.CopyComplete
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\refint\CodingChallenge.Application.dll
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\CodingChallenge.Application.pdb
+C:\Users\azhar\OneDrive\Desktop\ElasticSearch\net6\CleanArchitecture-master\CleanArchitecture-master\src\Common\CodingChallenge.Application\obj\Debug\net6.0\ref\CodingChallenge.Application.dll

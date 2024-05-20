@@ -1,0 +1,15 @@
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\bin\Debug\net8.0\CurrConverter.Application.deps.json
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\bin\Debug\net8.0\CurrConverter.Application.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\bin\Debug\net8.0\CurrConverter.Application.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\bin\Debug\net8.0\CurrConverter.Domain.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\bin\Debug\net8.0\CurrConverter.Domain.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.csproj.AssemblyReference.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.AssemblyInfoInputs.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.AssemblyInfo.cs
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.csproj.CoreCompileInputs.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConv.6E91A032.Up2Date
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\refint\CurrConverter.Application.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\CurrConverter.Application.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Application\obj\Debug\net8.0\ref\CurrConverter.Application.dll

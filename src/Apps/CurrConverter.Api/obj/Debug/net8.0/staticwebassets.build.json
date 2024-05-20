@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xBZSapYZTHa7RyOiMHh6X9vhMi7p3MywPa8ItwCKyMc=",
+  "Source": "CurrConverter.Api",
+  "BasePath": "_content/CurrConverter.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

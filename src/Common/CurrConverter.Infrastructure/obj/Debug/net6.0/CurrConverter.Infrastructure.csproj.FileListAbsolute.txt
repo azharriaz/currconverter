@@ -1,0 +1,17 @@
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.csproj.AssemblyReference.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.AssemblyInfoInputs.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.AssemblyInfo.cs
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.csproj.CoreCompileInputs.cache
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Infrastructure.deps.json
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Infrastructure.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Infrastructure.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Application.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Domain.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Application.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\bin\Debug\net6.0\CurrConverter.Domain.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConv.76ED68B7.Up2Date
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\refint\CurrConverter.Infrastructure.dll
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\CurrConverter.Infrastructure.pdb
+C:\source\CurrencyConverter\src\Common\CurrConverter.Infrastructure\obj\Debug\net6.0\ref\CurrConverter.Infrastructure.dll
