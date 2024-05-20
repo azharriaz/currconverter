@@ -105,3 +105,4 @@ This layer is a web api application based on ASP.NET 6.0.x. This layer depends o
 Logging into Elasticsearch using Serilog and viewing logs in Kibana.
 
 
+=======
