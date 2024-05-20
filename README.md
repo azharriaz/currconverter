@@ -1,86 +1,65 @@
 ﻿## Technologies
-* [ASP.NET Core 6](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0)
-* [Entity Framework Core 6](https://docs.microsoft.com/en-us/ef/core/)
+* [ASP.NET Core 8](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-8.0)
 * [MediatR](https://github.com/jbogard/MediatR)
 * [Mapster](https://github.com/MapsterMapper/Mapster)
 * [FluentValidation](https://fluentvalidation.net/)
-* [Elasticsearch](https://www.elastic.co/), [Serilog](https://serilog.net/), [Kibana](https://www.elastic.co/kibana)
-* [Docker](https://www.docker.com/)
+* [Serilog](https://serilog.net/))
 
-## Getting Started
+## Running the Application
 
-1. Pull the Elastic Container image, to pull run `docker pull docker.elastic.co/elasticsearch/elasticsearch:8.12.0`.
+1. Clone this repository to your local machine using git clone.
 
-2. Run the container with command `docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.12.0`.
+2. Open the solution in your preferred IDE (e.g., Visual Studio, Visual Studio Code).
 
-3. Verify elastic container is running, goto chrome search bar and try visiting "localhost:9200/_aliases".
+3. Ensure that the required NuGet packages are restored.
 
-4. Edit the app.settings.json file inside the project CodingChallenge.Infrastructure.Api.
-5. Run the project migrations for sql server, open the package manager console in visual studio and run `dotnet ef migrations add "CreateDb" --project src\Common\CodingChallenge.Infrastructure.SqlServer --startup-project src\Apps\CodingChallenge.Api`. You should see Migrations folder inside project CodingChallenge.Infrastructure.SqlServer
-6. Run the project using IISExpress profile. Project will take some time, as it will take some time seeding the initial application data.
-7. Initial run will also create default `products` index on elastic search container.
-8. Download the postman collection from root of the project to test dynamic search.
+4. Application settings are already configured to use the https://api.frankfurter.app/.
 
+5. Build the solution to ensure all projects are compiled successfully.
 
-## Product Search API Details `api/products/search`:
+6. Run the application using the IISExpress profile or by executing dotnet run in the terminal/command prompt from the root of the solution.
 
-1. Api accepts json body and structure of body is below:
+7. Once the application is running, you can access the following endpoints:
 
-`{
-  "query": "ultricies",
-  "criterias": [
-    {
-      "param": "name",
-      "value": "Green Angular Board 3000",
-      "conjunction": "and"
-    }
-  ],
-  "sorting": [
-    {
-      "field": "name",
-      "order": "asc"
-    }
-  ],
-  "pageSize": 50
-}`.
+# Retrieve Latest Exchange Rates:
 
-2. `query` is the main search term. i.e. products will be fetched mainly based on the query string provided i.e. following fields will be scaned name, description, brand, product type.
+7.1 Endpoint: GET /currencies/latest?baseCurrency={baseCurrency}
+    Example: GET http://localhost:5000/currencies/latest?baseCurrency=EUR
 
-3. `criterias` are list of objects, and each object contains 
-   i. `param` name of the field criteria to be applied on. Allowed values are {name, description, brand, type}.
-   ii. `value` is string which is to be searched.
-   iii. `conjuction` (optional by default each object is added with or clause) are operators which can be used to define nature of link between criterias. For instance if `or` is provided current query will be concated with previous as `previous_dynamic_query or brand="Ford"`. Allowed values for `conjuction` are {"or", "and", "gt", "lt"}.
+# Convert Currency:
 
-4. `sorting` are list of objects, and each object contains
-    i. `field` name of the field which is to be sorted by and Allowed values are {name, description, brand, type}.
-    ii. `order` is the data sorting order, Allowed values are {"asc", "desc"}.
-5. To test the search api import the collection in postman `ElasticSearch.postman_collection.json` and run the `Login` request. Copy the jwt token from response body and paste into `SearchByQuery` request's Authorization section. 
-6. Edit the body section with desired value and hit Send button to see the results.
+7.2 Endpoint: POST /currencies/convert
+    Example: Send a POST request with the conversion details in the request body.
+	`{
+		"amount": 10,
+		"fromCurrency": "GBP",
+		"toCurrency": "USD"
+    }`
 
-## Gifs are attached in the same directory to help understand usage of API through postman collection.
+# Get Historical Rates:
 
-### Database Configuration
+7.3 Endpoint: POST /currencies/history
+    Example: Send a POST request with the historical rates query details in the request body.
+	`{
+		"baseCurrency": "USD",
+		"startDate": "2023-01-01",
+		"endDate": "2023-01-31",
+		"pageNumber": 1,
+		"pageSize": 10
+	}`
 
-The template is configured to use an in-memory database by default. This ensures that all users will be able to run the solution without needing to set up additional infrastructure (e.g. SQL Server).
+## Postman collection is attached in the same directory to help understand usage of API.
 
-If you would like to use SQL Server, you will need to update **WebApi/appsettings.json** as follows:
+## Running Tests
+1. Navigate to the test project directory (CodingChallenge.UnitTests) in your terminal/command prompt.
 
-```json
-  "DbProvider": SqlServer
+2. Execute dotnet test to run all unit tests.
+
+3. Review the test results to ensure all tests pass successfully.
+
+4. Note: Tests are only covered for first two apis (latest, convert) and pending for Historical Exchange Rate api.
+
 ```
-
-### Multiple databases migrations
-To use `dotnet-ef` for your migrations please add the following flags to your command (values assume you are executing from repository root)
-
-* `--project src/Common/CodingChallenge.Infrastructure.{DbProvider}`
-* `--startup-project src/Apps/CodingChallenge.Api`
-
-For example, to add a new migration from the root folder:
-
-set `"DbProvider"` in **appsettings.json** of Api project to `SqlServer`:
-`dotnet ef migrations add "CreateDb" --project src\Common\CodingChallenge.Infrastructure.SqlServe --startup-project src\Apps\CodingChallenge.Api`
-
-`dotnet ef database update --project src\Common\CodingChallenge.Infrastructure.SqlServer --startup-project src\Apps\WebApi`
 
 ## Overview
 
@@ -98,11 +77,6 @@ This layer contains classes for accessing external resources such as file system
 
 ### WebApi
 
-This layer is a web api application based on ASP.NET 6.0.x. This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only *Startup.cs* should reference Infrastructure.
-
-### Logs
-
-Logging into Elasticsearch using Serilog and viewing logs in Kibana.
-
+This layer is a web api application based on ASP.NET 8.0.x. This layer depends on both the Application and Infrastructure layers, however, the dependency on Infrastructure is only to support dependency injection. Therefore only *Program.cs* should reference Infrastructure.
 
 =======

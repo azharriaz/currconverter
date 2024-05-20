@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "17663275-de55-416f-ba8e-783794bfaadc",
+		"name": "CurrencyConverter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4154802"
+	},
+	"item": [
+		{
+			"name": "Sample-Latest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Sample-Conversion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrl}}/latest?amount=10&from=GBP&to=USD",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"latest"
+					],
+					"query": [
+						{
+							"key": "amount",
+							"value": "10"
+						},
+						{
+							"key": "from",
+							"value": "GBP"
+						},
+						{
+							"key": "to",
+							"value": "USD"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sample-Historic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BaseUrl}}/2020-01-01..2020-01-31",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"2020-01-01..2020-01-31"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1- GetLatestExchangeRate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44308/api/currencies/latest?baseCurrency=EUR",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"currencies",
+						"latest"
+					],
+					"query": [
+						{
+							"key": "baseCurrency",
+							"value": "EUR"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2- Convert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"amount\": 10,\r\n  \"fromCurrency\": \"TRY\",\r\n  \"toCurrency\": \"USD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/currencies/convert",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"currencies",
+						"convert"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3- History",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"baseCurrency\": \"USD\",\r\n  \"startDate\": \"2023-01-01\",\r\n  \"endDate\": \"2023-01-31\",\r\n  \"pageNumber\": 1,\r\n  \"pageSize\": 10\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/currencies/history",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"currencies",
+						"history"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
